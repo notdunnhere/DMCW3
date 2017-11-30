@@ -1,0 +1,63 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.trees.UserClassifier 
+Relation:     fer2017-training-happy-weka.filters.unsupervised.instance.RemoveDuplicates-weka.filters.unsupervised.instance.RemovePercentage-P50.0-weka.filters.unsupervised.instance.RemovePercentage-P50.0
+Instances:    7399
+Attributes:   2305
+              [list of attributes omitted]
+Test mode:    user supplied test set:  size unknown (reading incrementally)
+
+=== Classifier model (full training set) ===
+
+
+Split on Column1 AND Column2 (In Set): N1 NotHappy(53.0/18.0)
+Split on Column1 AND Column2 (Not in Set)
+|   Split on Column1 AND Column2 (In Set): N3 NotHappy(37.0/13.0)
+|   Split on Column1 AND Column2 (Not in Set)
+|   |   Split on Column1 AND Column2 (In Set): N5 NotHappy(286.0/76.0)
+|   |   Split on Column1 AND Column2 (Not in Set)
+|   |   |   Split on Column1 AND Column2 (In Set): N7 NotHappy(106.0/29.0)
+|   |   |   Split on Column1 AND Column2 (Not in Set)
+|   |   |   |   Split on Column1 AND Column2 (In Set): N9 NotHappy(95.0/32.0)
+|   |   |   |   Split on Column1 AND Column2 (Not in Set)
+|   |   |   |   |   Split on Column1 AND Column2 (In Set): N11 Happy(9.0/1.0)
+|   |   |   |   |   Split on Column1 AND Column2 (Not in Set)
+|   |   |   |   |   |   Split on Column1 AND Column2 (In Set): N13 NotHappy(24.0/11.0)
+|   |   |   |   |   |   Split on Column1 AND Column2 (Not in Set)
+|   |   |   |   |   |   |   Split on Column1 AND Column6 (In Set): N15 NotHappy(2135.0/550.0)
+|   |   |   |   |   |   |   Split on Column1 AND Column6 (Not in Set)
+|   |   |   |   |   |   |   |   Split on Column1 AND Column6 (In Set): N17 NotHappy(2424.0/652.0)
+|   |   |   |   |   |   |   |   Split on Column1 AND Column6 (Not in Set)
+|   |   |   |   |   |   |   |   |   Split on Column1 AND Column6 (In Set): N19 NotHappy(2230.0/529.0)
+|   |   |   |   |   |   |   |   |   Split on Column1 AND Column6 (Not in Set): N20 NotHappy(0.0)
+
+Time taken to build model: 234.69 seconds
+
+=== Evaluation on test set ===
+
+Time taken to test model on supplied test set: 0.64 seconds
+
+=== Summary ===
+
+Correctly Classified Instances        1335               75.2961 %
+Incorrectly Classified Instances       438               24.7039 %
+Kappa statistic                         -0.0011
+Mean absolute error                      0.3774
+Root mean squared error                  0.4318
+Relative absolute error                 99.8541 %
+Root relative squared error            100.1515 %
+Total Number of Instances             1773     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.999    1.000    0.753      0.999    0.859      -0.014   0.515     0.760     NotHappy
+                 0.000    0.001    0.000      0.000    0.000      -0.014   0.515     0.254     Happy
+Weighted Avg.    0.753    0.754    0.568      0.753    0.647      -0.014   0.515     0.636     
+
+=== Confusion Matrix ===
+
+    a    b   <-- classified as
+ 1335    1 |    a = NotHappy
+  437    0 |    b = Happy
+

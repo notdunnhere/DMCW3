@@ -1,0 +1,129 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.trees.UserClassifier 
+Relation:     fer2017-training-happy-weka.filters.unsupervised.instance.RemoveDuplicates-weka.filters.unsupervised.instance.RemovePercentage-P50.0-weka.filters.unsupervised.instance.RemovePercentage-P50.0
+Instances:    7930
+Attributes:   2305
+              [list of attributes omitted]
+Test mode:    user supplied test set:  size unknown (reading incrementally)
+
+=== Classifier model (full training set) ===
+
+
+Split on Column1 AND Column4 (In Set): N1 NotHappy(11.0/4.0)
+Split on Column1 AND Column4 (Not in Set)
+|   Split on Column1 AND Column4 (In Set): N3 NotHappy(12.0/6.0)
+|   Split on Column1 AND Column4 (Not in Set)
+|   |   Split on Column1 AND Column5 (In Set): N5 Happy(9.0/4.0)
+|   |   Split on Column1 AND Column5 (Not in Set)
+|   |   |   Split on Column1 AND Column5 (In Set): N7 Happy(11.0/5.0)
+|   |   |   Split on Column1 AND Column5 (Not in Set)
+|   |   |   |   Split on Column1 AND Column6 (In Set): N9 NotHappy(7.0/3.0)
+|   |   |   |   Split on Column1 AND Column6 (Not in Set)
+|   |   |   |   |   Split on Column1 AND Column6 (In Set): N11 Happy(8.0/3.0)
+|   |   |   |   |   Split on Column1 AND Column6 (Not in Set)
+|   |   |   |   |   |   Split on Column1 AND Column7 (In Set): N13 Happy(16.0/4.0)
+|   |   |   |   |   |   Split on Column1 AND Column7 (Not in Set)
+|   |   |   |   |   |   |   Split on Column1 AND Column2 (In Set): N15 NotHappy(15.0/7.0)
+|   |   |   |   |   |   |   Split on Column1 AND Column2 (Not in Set)
+|   |   |   |   |   |   |   |   Split on Column1 AND Column2 (In Set): N17 NotHappy(45.0/18.0)
+|   |   |   |   |   |   |   |   Split on Column1 AND Column2 (Not in Set)
+|   |   |   |   |   |   |   |   |   Split on Column1 AND Column2 (In Set): N19 NotHappy(28.0/12.0)
+|   |   |   |   |   |   |   |   |   Split on Column1 AND Column2 (Not in Set)
+|   |   |   |   |   |   |   |   |   |   Split on Column1 AND Column2 (In Set): N21 NotHappy(35.0/7.0)
+|   |   |   |   |   |   |   |   |   |   Split on Column1 AND Column2 (Not in Set)
+|   |   |   |   |   |   |   |   |   |   |   Split on Column1 AND Column4 (In Set): N23 NotHappy(4.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   Split on Column1 AND Column4 (Not in Set)
+|   |   |   |   |   |   |   |   |   |   |   |   Split on Column1 AND Column2301 (In Set): N25 Happy(7.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   Split on Column1 AND Column2301 (Not in Set)
+|   |   |   |   |   |   |   |   |   |   |   |   |   Split on Column1 AND Column2301 (In Set): N27 Happy(4.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   Split on Column1 AND Column2301 (Not in Set)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Split on Column1 AND Column2300 (In Set): N29 Happy(3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Split on Column1 AND Column2300 (Not in Set)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Split on Column1 AND Column2300 (In Set): N31 Happy(4.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Split on Column1 AND Column2300 (Not in Set)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Split on Column1 AND Column2299 (In Set): N33 Happy(3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Split on Column1 AND Column2299 (Not in Set)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Split on Column1 AND Column2298 (In Set): N35 Happy(5.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Split on Column1 AND Column2298 (Not in Set)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Split on Column1 AND Column2298 (In Set): N37 Happy(2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Split on Column1 AND Column2298 (Not in Set)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Split on Column1 AND Column2297 (In Set): N39 Happy(3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Split on Column1 AND Column2297 (Not in Set)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Split on Column1 AND Column2297 (In Set): N41 Happy(7.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Split on Column1 AND Column2297 (Not in Set)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Split on Column1 AND Column2296 (In Set): N43 Happy(9.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Split on Column1 AND Column2296 (Not in Set)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Split on Column1 AND Column2296 (In Set): N45 Happy(6.0/2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Split on Column1 AND Column2296 (Not in Set)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Split on Column1 AND Column2292 (In Set): N47 Happy(5.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Split on Column1 AND Column2292 (Not in Set)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Split on Column1 AND Column2291 (In Set): N49 Happy(7.0/2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Split on Column1 AND Column2291 (Not in Set)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Split on Column1 AND Column2289 (In Set): N51 Happy(6.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Split on Column1 AND Column2289 (Not in Set)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Split on Column1 AND Column2286 (In Set): N53 Happy(3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Split on Column1 AND Column2286 (Not in Set)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Split on Column1 AND Column2285 (In Set): N55 Happy(13.0/5.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Split on Column1 AND Column2285 (Not in Set)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Split on Column1 AND Column2 (In Set): N57 NotHappy(12.0/4.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Split on Column1 AND Column2 (Not in Set)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Split on Column1 AND Column2 (In Set): N59 NotHappy(22.0/5.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Split on Column1 AND Column2 (Not in Set)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Split on Column1 AND Column2 (In Set): N61 Happy(8.0/3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Split on Column1 AND Column2 (Not in Set)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Split on Column1 AND Column2 (In Set): N63 NotHappy(100.0/24.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Split on Column1 AND Column2 (Not in Set)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Split on Column1 AND Column2 (In Set): N65 NotHappy(57.0/22.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Split on Column1 AND Column2 (Not in Set)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Split on Column1 AND Column2 (In Set): N67 Happy(11.0/3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Split on Column1 AND Column2 (Not in Set)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Split on Column1 AND Column2 (In Set): N69 NotHappy(22.0/8.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Split on Column1 AND Column2 (Not in Set)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Split on Column1 AND Column2 (In Set): N71 NotHappy(22.0/10.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Split on Column1 AND Column2 (Not in Set)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Split on Column1 AND Column2 (In Set): N73 Happy(10.0/4.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Split on Column1 AND Column2 (Not in Set)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Split on Column1 AND Column2 (In Set): N75 Happy(5.0/2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Split on Column1 AND Column2 (Not in Set)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Split on Column1 AND Column2 (In Set): N77 NotHappy(89.0/22.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Split on Column1 AND Column2 (Not in Set)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Split on Column1 AND Column2 (In Set): N79 NotHappy(954.0/244.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Split on Column1 AND Column2 (Not in Set)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Split on Column1 AND Column2 (In Set): N81 NotHappy(1697.0/418.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Split on Column1 AND Column2 (Not in Set)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Split on Column1 AND Column2 (In Set): N83 NotHappy(4631.0/1110.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Split on Column1 AND Column2 (Not in Set)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Split on Column1 AND Column2 (In Set): N85 NotHappy(1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Split on Column1 AND Column2 (Not in Set): N86 NotHappy(1.0)
+
+Time taken to build model: 892.93 seconds
+
+=== Evaluation on test set ===
+
+Time taken to test model on supplied test set: 0.79 seconds
+
+=== Summary ===
+
+Correctly Classified Instances        1337               75.4089 %
+Incorrectly Classified Instances       436               24.5911 %
+Kappa statistic                          0.0412
+Mean absolute error                      0.3703
+Root mean squared error                  0.4308
+Relative absolute error                 98.1131 %
+Root relative squared error             99.9241 %
+Total Number of Instances             1773     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.987    0.959    0.759      0.987    0.858      0.088    0.536     0.767     NotHappy
+                 0.041    0.013    0.514      0.041    0.076      0.088    0.536     0.282     Happy
+Weighted Avg.    0.754    0.726    0.699      0.754    0.665      0.088    0.536     0.648     
+
+=== Confusion Matrix ===
+
+    a    b   <-- classified as
+ 1319   17 |    a = NotHappy
+  419   18 |    b = Happy
+
