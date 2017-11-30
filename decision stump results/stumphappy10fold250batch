@@ -1,0 +1,59 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.trees.DecisionStump -batch-size 250
+Relation:     fer2017-training-happy-weka.filters.unsupervised.instance.RemoveDuplicates-weka.filters.unsupervised.instance.RemovePercentage-P50.0-weka.filters.unsupervised.instance.RemovePercentage-P50.0
+Instances:    6868
+Attributes:   2305
+              [list of attributes omitted]
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+Decision Stump
+
+Classifications
+
+Column1896 <= 119.5 : NotHappy
+Column1896 > 119.5 : NotHappy
+Column1896 is missing : NotHappy
+
+Class distributions
+
+Column1896 <= 119.5
+NotHappy	Happy	
+0.8113936272932089	0.18860637270679112	
+Column1896 > 119.5
+NotHappy	Happy	
+0.6761499601169901	0.3238500398830098	
+Column1896 is missing
+NotHappy	Happy	
+0.7373325567850902	0.2626674432149097	
+
+
+Time taken to build model: 2.4 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances        5064               73.7333 %
+Incorrectly Classified Instances      1804               26.2667 %
+Kappa statistic                          0     
+Mean absolute error                      0.3798
+Root mean squared error                  0.4364
+Relative absolute error                 98.0482 %
+Root relative squared error             99.1694 %
+Total Number of Instances             6868     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 1.000    1.000    0.737      1.000    0.849      0.000    0.576     0.781     NotHappy
+                 0.000    0.000    0.000      0.000    0.000      0.000    0.576     0.303     Happy
+Weighted Avg.    0.737    0.737    0.544      0.737    0.626      0.000    0.576     0.656     
+
+=== Confusion Matrix ===
+
+    a    b   <-- classified as
+ 5064    0 |    a = NotHappy
+ 1804    0 |    b = Happy
+

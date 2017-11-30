@@ -1,0 +1,62 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.trees.DecisionStump 
+Relation:     fer2017-training-happy-weka.filters.unsupervised.instance.RemoveDuplicates-weka.filters.unsupervised.instance.RemovePercentage-P50.0-weka.filters.unsupervised.instance.RemovePercentage-P50.0
+Instances:    7930
+Attributes:   2305
+              [list of attributes omitted]
+Test mode:    user supplied test set:  size unknown (reading incrementally)
+
+=== Classifier model (full training set) ===
+
+Decision Stump
+
+Classifications
+
+Column1896 <= 119.5 : NotHappy
+Column1896 > 119.5 : NotHappy
+Column1896 is missing : NotHappy
+
+Class distributions
+
+Column1896 <= 119.5
+NotHappy	Happy	
+0.8145787139689579	0.18542128603104213	
+Column1896 > 119.5
+NotHappy	Happy	
+0.6809347524294308	0.3190652475705692	
+Column1896 is missing
+NotHappy	Happy	
+0.7417402269861286	0.2582597730138714	
+
+
+Time taken to build model: 2.78 seconds
+
+=== Evaluation on test set ===
+
+Time taken to test model on supplied test set: 0.85 seconds
+
+=== Summary ===
+
+Correctly Classified Instances        1336               75.3525 %
+Incorrectly Classified Instances       437               24.6475 %
+Kappa statistic                          0     
+Mean absolute error                      0.3689
+Root mean squared error                  0.4281
+Relative absolute error                 97.7358 %
+Root relative squared error             99.2928 %
+Total Number of Instances             1773     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 1.000    1.000    0.754      1.000    0.859      0.000    0.571     0.782     NotHappy
+                 0.000    0.000    0.000      0.000    0.000      0.000    0.571     0.278     Happy
+Weighted Avg.    0.754    0.754    0.568      0.754    0.648      0.000    0.571     0.658     
+
+=== Confusion Matrix ===
+
+    a    b   <-- classified as
+ 1336    0 |    a = NotHappy
+  437    0 |    b = Happy
+

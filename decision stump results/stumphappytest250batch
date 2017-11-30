@@ -1,0 +1,62 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.trees.DecisionStump -batch-size 250
+Relation:     fer2017-training-happy-weka.filters.unsupervised.instance.RemoveDuplicates-weka.filters.unsupervised.instance.RemovePercentage-P50.0-weka.filters.unsupervised.instance.RemovePercentage-P50.0
+Instances:    6868
+Attributes:   2305
+              [list of attributes omitted]
+Test mode:    user supplied test set:  size unknown (reading incrementally)
+
+=== Classifier model (full training set) ===
+
+Decision Stump
+
+Classifications
+
+Column1896 <= 119.5 : NotHappy
+Column1896 > 119.5 : NotHappy
+Column1896 is missing : NotHappy
+
+Class distributions
+
+Column1896 <= 119.5
+NotHappy	Happy	
+0.8113936272932089	0.18860637270679112	
+Column1896 > 119.5
+NotHappy	Happy	
+0.6761499601169901	0.3238500398830098	
+Column1896 is missing
+NotHappy	Happy	
+0.7373325567850902	0.2626674432149097	
+
+
+Time taken to build model: 2.36 seconds
+
+=== Evaluation on test set ===
+
+Time taken to test model on supplied test set: 0.68 seconds
+
+=== Summary ===
+
+Correctly Classified Instances        1336               75.3525 %
+Incorrectly Classified Instances       437               24.6475 %
+Kappa statistic                          0     
+Mean absolute error                      0.3709
+Root mean squared error                  0.4282
+Relative absolute error                 97.6744 %
+Root relative squared error             99.2896 %
+Total Number of Instances             1773     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 1.000    1.000    0.754      1.000    0.859      0.000    0.571     0.782     NotHappy
+                 0.000    0.000    0.000      0.000    0.000      0.000    0.571     0.278     Happy
+Weighted Avg.    0.754    0.754    0.568      0.754    0.648      0.000    0.571     0.658     
+
+=== Confusion Matrix ===
+
+    a    b   <-- classified as
+ 1336    0 |    a = NotHappy
+  437    0 |    b = Happy
+
